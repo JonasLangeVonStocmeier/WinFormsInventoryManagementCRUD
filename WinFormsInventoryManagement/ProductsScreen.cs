@@ -17,16 +17,6 @@ namespace WinFormsInventoryManagement
             InitializeComponent();
         }
 
-        private void TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBoxPrice_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnProductSave_Click(object sender, EventArgs e)
         {
 

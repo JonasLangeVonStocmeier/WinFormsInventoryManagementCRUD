@@ -73,7 +73,7 @@
             textBoxProductBrand.Name = "textBoxProductBrand";
             textBoxProductBrand.Size = new Size(151, 16);
             textBoxProductBrand.TabIndex = 3;
-            textBoxProductBrand.TextChanged += TextBox2_TextChanged;
+
             // 
             // label2
             // 
@@ -107,7 +107,7 @@
             textBoxPrice.Name = "textBoxPrice";
             textBoxPrice.Size = new Size(74, 16);
             textBoxPrice.TabIndex = 7;
-            textBoxPrice.TextChanged += TextBoxPrice_TextChanged;
+
             // 
             // label4
             // 
