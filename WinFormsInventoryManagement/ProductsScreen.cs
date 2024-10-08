@@ -10,19 +10,26 @@ using System.Windows.Forms;
 
 namespace WinFormsInventoryManagement
 {
-    public partial class MainMenuScreen : Form
+    public partial class ProductsScreen : Form
     {
-        public MainMenuScreen()
+        public ProductsScreen()
         {
             InitializeComponent();
         }
 
-        private void BtnProducts_Click(object sender, EventArgs e)
+        private void TextBox2_TextChanged(object sender, EventArgs e)
         {
-            // Hide Main Menu -> show product screen
-            ProductsScreen productsScreen = new ProductsScreen();
-            productsScreen.Show();
-            this.Hide();
+
+        }
+
+        private void TextBoxPrice_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnProductSave_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

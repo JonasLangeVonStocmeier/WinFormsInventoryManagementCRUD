@@ -44,6 +44,7 @@
             btnProducts.TabIndex = 0;
             btnProducts.Text = "Manage Products";
             btnProducts.UseVisualStyleBackColor = true;
+            btnProducts.Click += BtnProducts_Click;
             // 
             // btnBill
             // 
