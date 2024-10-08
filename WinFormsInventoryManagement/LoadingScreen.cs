@@ -22,6 +22,12 @@ public partial class LoadingScreen : Form
         if (loadingbarValue >= loadingProgressbar.Maximum)
         {
             loadingbarTimer.Stop();
+        
+            // Finish loading -> show Main Menu Screen
+            MainMenuScreen mainMenuScreen = new MainMenuScreen();
+            mainMenuScreen.Show();
+
+            this.Hide();
         }
 
 
